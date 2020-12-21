@@ -1,0 +1,113 @@
+225
+225
+225+1
+226
+console.log("Hello")
+VM109:1 Hello
+undefined
+alert("I'am A Hacker nice to meet you Yoganshu yes thats rigt i know your name")
+
+undefined
+8/0
+Infinity
+"hello"/"bruh"
+NaN
+8>100
+false
+if(8>9){
+   console.log("false") 
+}
+undefined
+if(8>9){
+   console.log("false") 
+}else{
+    console.log("hi ")}
+VM372:4 hi 
+undefined
+var blah = "Yoganshu"
+switch (blah){
+    case "yoganshu":console.log("Not Happy")
+break
+    case "Yoganshu":console.log("Happy")
+break
+}
+VM717:5 Happy
+undefined
+var blah = "Yoganshu"
+switch (blah){
+    case "Yoganshu":console.log("Not Happy")
+break
+    case "Yoganshu":console.log("Happy")
+break
+}
+VM725:3 Not Happy
+undefined
+var blah = "Yoganshu"
+switch (blah){
+    case "yoganshu":console.log("Not Happy")
+break
+    case "Yoganshu":console.log("Happy")
+break
+}
+VM732:5 Happy
+undefined
+for(var i =10;i<15;i++){
+   console.log(i)
+}
+VM995:2 10
+VM995:2 11
+VM995:2 12
+VM995:2 13
+VM995:2 14
+undefined
+ var array =[1,"hello",3,"+"];
+console.log(array);
+VM1145:2 (4) [1, "hello", 3, "+"]
+undefined
+console.log(array[0])
+VM1238:1 1
+undefined
+array.push("freiand");
+console.log(array)
+VM1358:2 (5) [1, "hello", 3, "+", "freiand"]0: 11: "hello"2: 33: "+"4: "freiand"length: 5__proto__: Array(0)
+undefined
+array.pop();
+console.log(array)
+VM1464:2 (4) [1, "hello", 3, "+"]
+undefined
+for(var z in array){
+   console.log(z)
+}
+VM1567:2 0
+VM1567:2 1
+VM1567:2 2
+VM1567:2 3
+undefined
+for(var z in array){
+   console.log(array[z])
+}
+VM1606:2 1
+VM1606:2 hello
+VM1606:2 3
+VM1606:2 +
+undefined
+function blah(radius){
+   var circumference = 2*3.14*radius
+   return circumference
+}
+undefined
+blah(99999);
+627993.72
+var paddle = new Object()
+paddle.length = 25
+paddle.showLength = function (){
+  console.log(paddle.length)
+}
+ƒ (){
+  console.log(paddle.length)
+}
+paddle.showLength()
+VM2038:4 25
+undefined
+paddle
+{length: 25, showLength: ƒ}length: 25showLength: ƒ ()arguments: nullcaller: nulllength: 0name: ""prototype: {constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM2038:3[[Scopes]]: Scopes[1]__proto__: Object
